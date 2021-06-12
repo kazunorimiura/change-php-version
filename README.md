@@ -11,7 +11,7 @@ Place the `provision-post.sh` into your VCCW directory. Following example is ins
 
 set -ex
 
-curl https://raw.githubusercontent.com/vccw-team/change-php-version/master/run.sh | bash -s -- 5.6
+curl https://raw.githubusercontent.com/kazunorimiura/change-php-version/master/run.sh | bash -s -- 5.6
 ```
 
 Then run:
