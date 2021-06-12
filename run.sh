@@ -4,6 +4,8 @@ set -ex
 
 PHP_VERSION=${1-"7.0"}
 
+sudo add-apt-repository -y ppa:geneanet/php
+
 sudo apt update -y
 
 sudo apt install \
